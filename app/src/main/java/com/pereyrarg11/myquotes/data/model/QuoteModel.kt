@@ -1,4 +1,4 @@
-package com.pereyrarg11.myquotes.model
+package com.pereyrarg11.myquotes.data.model
 
 data class QuoteModel(
     val quote: String,
