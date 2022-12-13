@@ -1,4 +1,4 @@
-package com.pereyrarg11.myquotes.viewmodel
+package com.pereyrarg11.myquotes.ui.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

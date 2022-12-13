@@ -1,11 +1,11 @@
-package com.pereyrarg11.myquotes.view
+package com.pereyrarg11.myquotes.ui.view
 
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import com.pereyrarg11.myquotes.databinding.ActivityMainBinding
-import com.pereyrarg11.myquotes.viewmodel.QuoteViewModel
+import com.pereyrarg11.myquotes.ui.viewmodel.QuoteViewModel
 
 class MainActivity : AppCompatActivity() {
 
