@@ -1,7 +1,9 @@
 package com.pereyrarg11.myquotes.data.model
 
-class QuoteProvider {
-    companion object {
-        var quoteList = emptyList<QuoteModel>()
-    }
+import javax.inject.Inject
+import javax.inject.Singleton
+
+@Singleton
+class QuoteProvider @Inject constructor() {
+    var quoteList = emptyList<QuoteModel>()
 }
